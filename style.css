@@ -1,0 +1,125 @@
+/* Define styles for the button */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+  }
+  
+  /* Change button background color on hover */
+  .button:hover {
+    background-color: #45a049; /* Darker green */
+  }
+  
+  /* Change button background color on click */
+  .button:active {
+    background-color: #3e8e41; /* Even darker green */
+  }
+
+  #new-form-book {
+    display: block;
+    max-width: 300px; /* Adjust as needed */
+    margin: 0 auto; /* Center the form */
+  }
+  
+  #new-form-book label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #new-form-book input[type="text"],
+  #new-form-book input[type="checkbox"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding doesn't increase width */
+  }
+  
+  #new-form-book input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #new-form-book input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green */
+  }
+  .book-card {
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .book-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .book-card h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .book-card p {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    color: #666;
+  }
+  
+  .book-card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5));
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .book-card:hover .overlay {
+    opacity: 1;
+  }
+  
+  .book-card .overlay-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+  }
+  
+  .book-card .overlay-content p {
+    margin: 0;
+    font-size: 0.9em;
+  }
+  .delete-btn {
+    background-color: #dc3545; /* Bootstrap's danger color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333; /* Darker red color on hover */
+  }
+      
